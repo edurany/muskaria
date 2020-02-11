@@ -4,17 +4,18 @@
 	
 	<!-- .social-widget-description -->
 	<ul class="clr color flat">
-		<?php if(!empty($instance['twitter'])):?>
-		<li class="twitter"><a href="<?php echo esc_attr($instance['twitter']);?>" title="Twitter" target="_blank"> 
-			<span class="fa fa-twitter"></span>
-			<?php echo esc_html__('Twitter', 'livemag'); ?>
-		</a></li>
-		<?php endif;?>
 		
 		<?php if(!empty($instance['facebook'])):?>
 		<li class="facebook"><a href="<?php echo esc_attr($instance['facebook']);?>" title="Facebook" target="_blank"> 
 			<span class="fa fa-facebook"></span>				
 			<?php echo esc_html__('Facebook', 'livemag'); ?>
+		</a></li>
+		<?php endif;?>
+
+		<?php if(!empty($instance['twitter'])):?>
+		<li class="twitter"><a href="<?php echo esc_attr($instance['twitter']);?>" title="Twitter" target="_blank"> 
+			<span class="fa fa-twitter"></span>
+			<?php echo esc_html__('Twitter', 'livemag'); ?>
 		</a></li>
 		<?php endif;?>
 		
