@@ -1,0 +1,132 @@
+/**********************************
+    File Name: custom.css
+	Main color: #2855a6
+/**********************************/
+
+/****** PRESET FONTS *******/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p.dropcaps::first-letter,
+.large-widget-title a,
+.large-post-meta,
+.customshare .list strong,
+.widget-title,
+a.widget_latest_news_style_1_first_link,
+.widget_latest_news_style_2  li.items a,
+.widget_latest_news_style_3 li.items a,
+.slider_posts_slideshow a span,
+li.ticker a,
+.post-title  a,
+.widget_alith_social_widget ul li a,
+.post-nav a,
+.comment-wrapper #comments .form-submit input,
+.search_box input[type="submit"],
+a.post-title
+{
+    font-family: 'Montserrat', sans-serif;
+}
+body,
+.navbar-nav > li > a , 
+.navbar-brand ,
+.comment-wrapper #comments input,
+.comment-wrapper #comments textarea,
+.search_box input,
+input,
+select
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/****** PRESET COLOR *******/
+.tags a,
+.btn-primary,
+.pagination > li > a,
+.pagination > li > span,
+.search_box input[type="submit"],
+.tagcloud a:hover
+{
+    background-color: #2855a6;
+    border-color: #2855a6;
+    color: #ffffff;
+}
+.navbar-default, .header, .header-two-mainnav {
+  background: #2855a6 none repeat scroll 0 0;  
+}
+.navbar-default, .header {border: none !important;}
+a,
+.widget-title a,
+.post-title  a,
+.post-share .fa-share-alt,
+.widget_latest_news_style_1 li.items a:hover,
+.widget_latest_news_style_2 li.items a:hover,
+.widget_latest_news_style_3 li.items a:hover span,
+.slider_posts_slideshow a:hover span,
+.alith_ticker li:hover a,
+.footer ul.footer-menu li:hover a
+ {
+    color: #2855a6;
+}
+a.back-to-top,
+.feature_posts_carausel .cat-wrap,
+.feature_posts_grid .cat-wrap,
+.post-tags a,
+.comment-wrapper #comments .form-submit input,
+.comment-wrapper .commentlist li .reply a,
+.author_box .count_article,
+input.search-submit,
+#wp-calendar caption 
+ {
+	background: #2855a6 none repeat scroll 0 0;
+	color: #fff;
+	
+}
+
+.feature_posts_carausel .cat-wrap,
+.feature_posts_grid .cat-wrap
+ {
+	opacity: 0.85;
+ }
+.site-pagination ul{
+border: 2px solid #2855a6;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+div.bbp-template-notice,
+div.indicator-hint,
+div.bbp-template-notice p,
+.tags a:hover,
+.btn-primary:hover,
+.btn-primary:focus,
+.comment-wrapper #comments .form-submit input:hover,
+.comment-wrapper .commentlist li .reply:hover a,
+.search_box input[type="submit"]:hover
+ {
+    background-color: #0080c9;
+    border-color: #0080c9;
+    color: #ffffff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

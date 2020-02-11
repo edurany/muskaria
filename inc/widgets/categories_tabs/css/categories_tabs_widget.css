@@ -1,0 +1,104 @@
+/**
+ * Plugin Category Posts Tabber
+ */
+
+.alith-widget {
+	overflow: hidden;
+}
+
+#alith-widget {
+	width: 100%;
+	float: left;
+}
+.tabber_item {overflow: hidden; margin: 0 0 10px 0;}
+.tabber_item:last-child {margin:0;}
+#alith-tab {
+border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+border-top: 0 none;
+float: left;
+width: 100%;
+}
+
+#alith-tab li {
+border: medium none;
+float: right;
+list-style: outside none none;
+margin: 0;
+overflow: hidden;
+padding: 0;
+text-align: right;
+padding: 0 0 0 20px;
+}
+#alith-tab li:first-child {
+	float: left;
+padding: 0;
+}
+#alith-tab li a {
+	display: block;
+}
+
+#alith-tab li .alith-current-item {
+font-weight: bold;
+text-transform: uppercase;
+width: 100%;
+font-size: 18px;
+}
+
+#alith-content-wrapper {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+#alith-content-wrapper .alith-current-content {
+	display: block !important;
+}
+
+#alith-content-wrapper .alith-tab-content {
+display: none;
+padding: 20px 0 0 0;
+}
+
+#alith-content-wrapper .alith-tab-content li {
+	margin: 0 0 20px 0;
+	float: left;
+	list-style: none;
+	padding: 0;
+	border: none;
+	width: 100%;
+}
+
+.no-thumbnail .alith-tab-content li {
+	list-style: disc !important;
+	margin: 0 0 10px 0 !important;
+}
+
+#alith-content-wrapper .alith-tab-content li:last-child {
+	margin-bottom: 15px;
+}
+
+#alith-content-wrapper .alith-thumbnail {
+	float: left;
+	width: 27%;
+	margin-right: 13px;
+}
+
+#alith-content-wrapper .alith-thumbnail img {
+margin: 0;
+width: 100%;
+}
+
+#alith-content-wrapper .alith-post-meta {
+	font-size: 13px;
+	color: rgb(131, 131, 131);
+}
+
+#alith-content-wrapper .alith-separate {
+	color: rgb(207, 207, 207);
+}
+
+.alith-no-post {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
