@@ -37,7 +37,7 @@
 <div class="entry-content">
 	<?php echo mb_substr(get_the_excerpt(), 0, 200) . '...';?>
 </div>
-
+<!--
 <div class="post-share">					
 	<div class="customshare">
 		<span class="list">
